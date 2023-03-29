@@ -1,14 +1,10 @@
-/* eslint-disable no-console */
-/* eslint-disable @typescript-eslint/no-var-requires */
-/* eslint-disable import/no-commonjs */
-
 // +----------------------------------------------------------------------+
 // | this needs to be on top of your code to make sure that the WebSocket |
 // | implementation is included before any other code is executed         |
 // +----------------------------------------------------------------------+
 global.WebSocket = require('ws');
 
-const { TreeNews } = require('../dist/index');
+const { TreeNews } = require('@iam4x/treenews');
 
 const treeNews = new TreeNews({
   autoStart: true,

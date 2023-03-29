@@ -1,5 +1,4 @@
-/* eslint-disable no-console */
-import { TreeNews } from '../dist/index';
+import { TreeNews } from '@iam4x/treenews';
 
 const treeNews = new TreeNews({
   autoStart: true,
