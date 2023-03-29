@@ -51,7 +51,8 @@ treeNews.stop();
 
 If you found this project interesting or useful, create accounts with my referral links:
 
-- [Bybit](https://partner.bybit.com/b/iam4x) [Up to $30,000 deposit bonus - no KYC required]
+- [Bybit](https://partner.bybit.com/b/iam4x) **Up to $30,000 deposit bonus - no KYC required**
+- [OKX](https://www.okx.com/join/iam4x) **Up to $10,000 deposit bonus**
 - [Binance](https://accounts.binance.com/en/register?ref=KOLLSXK0)
 
 Or buy me a coffee with a crypto donation:
