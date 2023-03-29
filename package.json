@@ -1,0 +1,31 @@
+{
+  "name": "@iam4x/treenews",
+  "private": false,
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc -w",
+    "lint-ts": "tsc --noEmit",
+    "lint-js": "eslint --ext .js,.ts src",
+    "lint": "npm run lint-ts && npm run lint-js",
+    "build": "rm -rf dist && tsc",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.21.3",
+    "@types/node": "^18.15.11",
+    "@typescript-eslint/eslint-plugin": "^5.57.0",
+    "@typescript-eslint/parser": "^5.57.0",
+    "eslint": "^8.37.0",
+    "eslint-config-algolia": "^20.1.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsdoc": "^40.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.7",
+    "typescript": "^5.0.2",
+    "ws": "^8.13.0"
+  }
+}
