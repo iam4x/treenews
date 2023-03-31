@@ -1,5 +1,10 @@
 # TreeNews
 
+![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/iam4x/treenews)
+[![npm version](https://badge.fury.io/js/safe-cex.svg)](https://badge.fury.io/js/@iam4x/treenews)
+![npm](https://img.shields.io/npm/dt/@iam4x/treenews)
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/@iam4x/treenews)
+
 > An universal JavaScript client of [TreeNews](https://news.treeofalpha.com/) WebSocket
 >
 > Written in TypeScript with definitions typings
